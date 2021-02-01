@@ -1,5 +1,5 @@
 Flask==1.1.1
-tensorflow_gpu==2.4.0
+tensorflow-cpu==2.4.0
 mistune==0.8.4
 numpy==1.19.5
 Werkzeug==1.0.1
