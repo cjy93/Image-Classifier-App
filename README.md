@@ -220,7 +220,7 @@ Other than this you can also close them from the GUI of DockerHub
 
 
 
-## What is CI/CD (Refer to David Chong's example)
+## What is CI/CD 
 CI/CD stands for continuous integration and continuous development. In short, it allows DevOps teams to increase the speed of software development in a quicker and more consistent manner.
 
 TLDR: Continuous integration comes about when we integrate code in a shared repository, which will be validated when developers perform a Merge request
@@ -231,7 +231,7 @@ Continuous delivery is a result of having continuous integration
 
 Note that continuous delivery does not equate to automatic deployment. It simply means having the ability or option to deploy as a result of CI-validated code.
 
-## CICD Workflow (Refer to David Chong's example)
+## CICD Workflow 
 mermaid graph LR A((Developer)) -- Push code changes --> B[Build/Test] B -- Failed tests --> A B -- Push code fixes --> C[Build/Test] C --> D(Review and Approve) D --> E{Merge} A --> E E --> F(Automated Build Test Deploy)
 
 mermaid sequenceDiagram Developer ->> Build/Test: Continuous Integration Build/Test--x Developer: Failed Tests Note left of Review and Approve: CI is the process of <br>continually pushing <br> and reviewing <br>code Note right of Merge: CD is the ability to <br> push out code as a<br> result of CI Merge -->> Deploy: Continous Delivery
