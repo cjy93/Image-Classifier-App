@@ -1,4 +1,6 @@
-# AIAP Batch 7 Assignment 7
+# Image Classification Application deployed with Flask on Heroku
+The link to the app is : https://image-classification-jy2.herokuapp.com/  
+
 This project is done as part of AIAP assignment 7. This is a front-to-end project, where the end goal is to serve a deep learning model on the web. In this web app, a trained model is used to predict 12 different food classes, namely chilli crab, curry_puff, dim sum, ice kacang, kaya toast, nasi ayam, popiah, roti prata, sambal stingray, satay, tau huay and wanton noodle.
 
 ## Architecture of Model
